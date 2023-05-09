@@ -13,9 +13,18 @@ public class Tester {
         this.nume=nume;
     }
 
-    /*
 
+    //Tester obj = new Tester();
+    /*
+     * Tester --Numele clasei
+     * obj - numele obiect
+     * =  - operator de atriburie
+     * new - cuvant cheie in java care ne ajuta sa instantiem o clasa
+     * Tester() - constructor
      */
-    Tester obj = new Tester();
+
+    //Tester obj = new Tester();
+    // obj.setNume("Oana");
+
 
 }

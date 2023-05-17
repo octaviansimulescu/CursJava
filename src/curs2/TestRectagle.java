@@ -7,5 +7,6 @@ public class TestRectagle {
 
         Rectangle rectangle2 = new Rectangle(9,5);
         System.out.println("Aria e "+ rectangle2.calculateAria());
+
     }
 }

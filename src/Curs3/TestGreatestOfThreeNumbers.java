@@ -6,5 +6,9 @@ public class TestGreatestOfThreeNumbers {
         GreatestOfThereNumbers obj = new GreatestOfThereNumbers();
         obj.inputNumber();
         obj.compareNumber();
+
+        VerificareVarsta varsta = new VerificareVarsta();
+        varsta.tellAge();
+        varsta.checkAge();
     }
 }

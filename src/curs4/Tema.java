@@ -37,7 +37,6 @@ public class Tema {
         number = scan.nextInt();
         for (int i = 1; i <= 10; i++) {
             int multiplication= number * i;
-
             System.out.println("Print multiplication " + number + " * " + i + " = " + (multiplication));
         }
     }

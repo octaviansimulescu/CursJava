@@ -1,21 +1,40 @@
 package curs5;
 
 public class Fibonacci {
+
     public static void main(String[] args) {
         Fibonacci fibonacci =new Fibonacci();
-        fibonacci.forFibonnacci();
+        fibonacci.forFibonacci();
+        fibonacci.whileFibonacci();
+
     }
     int F0=0;
-    int F1=0;
-    int suma=0;
-    int nrCalculate=9;
+    int F1=1;
+    int suma;
+   static int nrCalculate=9;
 
-    public void forFibonnacci(){
-        for (int i = 0;i<nrCalculate;i++){
-           suma= F0 + F1;
-           F1 = i - suma;
-
+    public void forFibonacci() {
+        System.out.printf("Seria Fibonacci pentru " + nrCalculate + " numere este: ");
+        for (int i = 0; i<nrCalculate;i++){
+            System.out.printf(F0 + " ");
+            suma = F0 + F1;
+            F0 = F1;
+            F1 = suma;
         }
-        System.out.println("Seria fibonnaci pt 9 numere e" + suma);
+    }
+
+
+    public void whileFibonacci(){
+        F0=0;
+        F1=1;
+        System.out.printf("%nSeria Fibonacci pentru " + nrCalculate + " numere este: ");
+        int i = 0;
+        while (i < nrCalculate){
+            System.out.printf(F0 + " ");
+            suma = F0 + F1;
+            F0 = F1;
+            F1 = suma;
+            i++;
+        }
     }
 }

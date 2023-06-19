@@ -7,12 +7,12 @@ public class testPropertiesFile {
     public static void main(String[] args) throws IOException {
         PropertiesFileProcessor obj = new PropertiesFileProcessor();
         obj.writePropertiesFile();
-        obj.readProperties("user");
+        obj.readProperties("djasjd");/*
         obj.readProperties("pass");
         obj.readProperties("email");
         obj.updatePropertiesFile("user","admin");
         obj.updatePropertiesFile("pass","admin123");
         System.out.println("===============");
-        obj.deleteFromPropertiesFile("email");
+        obj.deleteFromPropertiesFile("email");*/
     }
 }
